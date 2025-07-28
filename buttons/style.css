@@ -9,6 +9,7 @@ body {
     background-color: lightgrey; /* background */
 }
 
+/* center on page */
 ul {
     display: flex;
     position: absolute;
@@ -17,32 +18,34 @@ ul {
 }
 
 ul li {
-    list-style: none;
+    list-style: none; /* remove bullet points */
 }
 
+/* main button style */
 ul li a {
     width: 80px;
     height: 80px;
     background-color: white;
     text-align: center;
-    line-height: 80px;
+    line-height: 80px; /* center icon */
     font-size: 55px;
     margin: 0 10px;
     display: block;
     border-radius: 50%;
     position: relative;
     overflow: hidden;
-    border: 3px solid white;
+    border: 3px solid white;    
     z-index: 1;
 }
 
 ul li a .icon {
     position: relative;
-    color: #262626;
+    color: #262626; /* social icon color */
     transition: .5s;
     z-index: 3;
 }
 
+/* color and spin on hover */
 ul li a:hover .icon {
     color: white;
     transform:rotateY(360deg);
@@ -51,7 +54,7 @@ ul li a:hover .icon {
 ul li a:before {
     content: "";
     position: absolute;
-    top: 100%;
+    top: 100%; /* start at bottom of button */
     left: 0;
     width: 100%;
     height: 100%;
@@ -60,6 +63,7 @@ ul li a:before {
     z-index: 2;
 }
 
+/* slide up on hover */
 ul li a:hover:before {
     top: 0;
 }
