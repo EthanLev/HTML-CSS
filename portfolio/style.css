@@ -12,6 +12,21 @@ body{
     background-color: lightblue;
 }
 
+button{
+    width: 50%;
+    height: 6vh;
+    margin: 30px;
+    color: white;
+    background-color: #779eb2;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 120%;
+    font-weight: 700;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+
 /* Home Page */
 section{
     width: 100%;
@@ -113,3 +128,5 @@ section .home{
     top: 0;
 }
 
+
+/* Contact Page */
