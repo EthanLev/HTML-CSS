@@ -9,7 +9,7 @@ body{
     height: auto;
     justify-content: center;
     align-items: center;
-    background-color: rgb(74, 90, 90);
+    background-color: #29343a;
 }
 
 button{
@@ -17,7 +17,7 @@ button{
     height: 6vh;
     margin: 30px;
     color: white;
-    background-color: #285d5f;
+    background-color: #779eb2;
     border: none;
     outline: none;
     border-radius: 15px;
@@ -25,6 +25,20 @@ button{
     font-weight: 700;
     transition: 0.3s linear;
     cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: #365563;
+    border: 3px solid #779eb2;
+    box-shadow: 0 0 20px #8eb1c2;
+}
+
+.content .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
 }
 
 /* Home Page */
@@ -45,7 +59,7 @@ section .home{
     height: 60vh;
     border-radius: 100%;
     overflow: hidden;
-    box-shadow: 0 0 70px #124d6b;
+    box-shadow: 0 0 70px #8eb1c2;
     margin-right: 75px;
 }
 .home .image img{
@@ -54,16 +68,17 @@ section .home{
 }
 
 .home .content{
+    color: white;
     width: 50%;
 }
 
 .content h1{
-    font-size: 45px;
+    font-size: 50px;
 }
 
 .content h1 span{
-    color: #124d6b;
-    text-shadow: 0 0 5px #4991b4;
+    color: #779eb2;
+    text-shadow: 0 0 5px #8eb1c2;
 }
 
 .content .description{
@@ -73,7 +88,7 @@ section .home{
 
 /* Social Links */
 .social-links ul{
-    padding-top: 20px;
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +105,7 @@ section .home{
     background-color: white;
     text-align: center;
     line-height: 70px;
-    font-size: 50px;
+    font-size: 40px;
     margin: 0 10px;
     display: block;
     border-radius: 50%;
